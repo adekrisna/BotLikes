@@ -72,9 +72,9 @@ def autolike():
           try:    
             #-----------------------------[JANGAN DIEDIT]-----------------------------#
             cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
-            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like By Syams - 255\n\n» Youtube.com/c/SYAMSPlayMC")
+            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto BotLike By Kris - thea\n\n» http://line.me/ti/p/GkwfNjoPDH")
             #-----------------------------[JANGAN DIEDIT]-----------------------------#
-            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto Like By Syams - 255\n\n» Youtube.com/c/SYAMSPlayMC")
+            cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"Auto BotLike By Kris - thea\n\n» http://line.me/ti/p/GkwfNjoPDH")
             print "Like"
           except:
             pass
